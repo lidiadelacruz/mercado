@@ -1,6 +1,7 @@
 import { NextApiRequest, NextApiResponse } from 'next';
 import _pages from 'pages/api/_content/pages';
 import _schema from 'pages/api/_content/schema.json';
+import axios from "axios"
 
 interface Pages {
     [key: string]: string
