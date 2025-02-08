@@ -44,9 +44,9 @@
     "stylelint-config-sass-guidelines": "^9.0.0"
   },
   "scripts": {
-    "dev": "NODE_ENV=development next",
-    "start": "NODE_ENV=production next start",
-    "build": "next build",
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider next dev",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider next build",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider next start",
     "eslint": "eslint ./src",
     "stylelint": "stylelint ./src"
   },
